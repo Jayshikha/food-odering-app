@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --navbar-height: 59px;
+}
+
+    body
+{
+    font-style: Trirong;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+
+
+}
+
+#navbar::before {
+
+    content: " ";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100vw;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    opacity: 0.8;
+}
+
+
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    color: white;
+    list-style: none;
+    font-size: 1rem;
+}
+
+#navbar ul li a {
+    padding: 3px 10px;
+    display: block;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+}
+#navbar ul li a:hover{
+color: black;
+background-color: white;
+}
+
+#logo {
+
+    margin: 2px 3px;
+}
+
+#logo img {
+    border-radius: 158px;
+    margin: 2px;
+    height: 70px;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 47px;
+    justify-content: center;
+    align-items: center;
+    height: 155px;
+    margin: 140PX;
+    
+}
+#home::before{
+
+    content: " ";
+    background: url(../images/home2.jpg) no-repeat center/cover;
+    position: absolute;
+    height: 79%;
+    width: 100vw;
+    z-index: -3;
+    opacity: 0.5;
+    top: 0px;
+    left: 0px;
+}
+#home h1{
+    color: black;
+    text-align: center;
+}
+#home p{
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+    font-style: Trirong;
+}
+.btn{
+    padding: 6px 20px;
+    background-color: brown;
+    border: 2px solid white;
+    color: white;
+    border-radius: 38px;
+    margin: 19px;
+    font-size: 21px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;
+}
+.h-primary{
+    font-size: 2.8rem;
+    padding:28px ;
+    margin: 19px;
+}
+.h-secondry{
+    font-size: 2rem;
+    padding: 12px;
+}
+#serv{
+    display: flex;
+    margin: 34px;
+    
+    
+}
+#serv .box{
+    /* border: 2px solid brown; */
+    border: 2px solid brown;
+    padding: 20px;
+    border-radius: 53px;
+    margin: 3px;
+    background-color: gainsboro;
+}
+#serv .box img{
+ height: 150px;
+ display: block;
+ margin: auto;
+}
+
+.service h1{
+    height: 0px;
+    padding: 26px;
+    margin: 24px;
+    display: block;
+}
+#clint-section{
+    height: 326px;
+    /* position: relative; */
+}
+#clint-section h1{
+    display: block;
+    text-align: center;
+    margin: 21px;
+    padding: 0px;
+ 
+    height: 22px;
+
+ 
+}
+#clint-section::before{
+    position: absolute;
+    content: " ";
+    background: url(../images/clintbg.jpg) no-repeat center/cover;
+    width: 100%;
+    height: 39%;
+    z-index: -1;
+    opacity: 0.6;
+}
+#clints{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#clints img{
+    height: 124px;
+}
+.clint-item{
+    padding: 34px;
+}
+#contect{
+    position: relative;
+}
+#contect-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:34px ;
+}
+#contect-box input,
+#contect-box textarea{
+    width: 100%;
+    padding: 4px 9px;
+}
+#contect::before{
+content: " ";
+position: absolute;
+width: 100%;
+height: 100%;
+z-index: -1;
+opacity: 0.9;
+background: url(../images/coontect.jpg) no-repeat center center/cover;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+#contect-box form{
+    width: 47%;
+    font-size: 1.5rem;
+}
+#contect-box label{
+    font-size: 1.5rem;
+    width: 40%;
+}

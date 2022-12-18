@@ -1,0 +1,96 @@
+
+#navbar{flex-flow: wrap;
+justify-content: center;
+}
+#home{
+    height: 248px;
+    top: unset;
+    padding: 7px 0px ;
+     margin:0PX;
+}
+#home::before{
+    height: 81%;
+    opacity: 0.5;
+}
+.service{
+    margin-top: 230px;
+    overflow:visible
+}
+#home h1 {
+  
+    margin: 132px 0px 0px 0px;
+ 
+}
+
+.h-primary {
+    font-size: 1.9rem;
+    padding: 65px 16px 5px 28px;
+    margin: 0px;
+}
+#home p{
+    font-size: 1.2rem;
+    font-style: Trirong;
+    MARGIN: 0PX 7px 0px 16px;
+    PADDING: 15px 0px 8px 0px;
+}
+.service h1 {
+    padding: 1px;
+    margin: 0px;
+    margin-top: 30px;
+}
+#serv .box {
+
+    padding: 18px;
+    border-radius: 83px;
+    margin: 3px;
+ 
+}
+#serv {
+    display: flex;
+  
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    margin: 34px;
+    height: 324px;
+    padding: 38px 13px 81px 0px;
+}
+#serv .box img {
+    height: 109px;
+    border-radius: 38px;
+}
+.h-secondry {
+    font-size: 1.5rem;
+
+}
+#contect-box form {
+    width: 34%;
+    font-size: 0.5rem;
+}
+#contect-box label {
+    font-size: 1rem;
+  
+}
+#clints img {
+    height: 91px;
+}
+#clint-section {
+  
+    margin: 561px 0px 0px 0px;
+    height: 326px;;
+}
+#clint-section h1 {
+    display: block;
+    text-align: center;
+    padding: 0px;
+    margin: 53px 0px 33px 3px;
+    height: 22px;
+}
+.clint-item {
+  
+    margin: 0px;
+    padding: 7px;
+}
+#clint-section::before{
+    height: 50%;
+    margin: 50px 0px 0px 0px;
+}

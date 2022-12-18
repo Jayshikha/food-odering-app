@@ -1,0 +1,23 @@
+.h-primary {
+    font-size: 1.9rem;
+    padding: 65px 16px 5px 28px;
+    margin: 185px 19px 0px 0px;
+}
+#navbar{
+    flex-flow: wrap;
+    justify-content: center;
+}
+#home {
+    height: 248px;
+    top: unset;
+    padding: 7px 0px;
+}
+#home ::before{
+  height: 91%;
+}
+.service{
+   
+        margin: 210px 0px 0px 0px;
+        padding: 0px;
+    
+}
